@@ -1,0 +1,1 @@
+add `command="/path/to/wrapper.sh"` at the beginning of the line of the ssh key in ~/.ssh/authorized_keys
