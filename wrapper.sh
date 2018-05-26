@@ -3,7 +3,7 @@ set -e
 export LANG=C
 
 info () {
-	echo warning: "$@" >&2
+	echo "$@" >&2
 }
 
 warn () {
