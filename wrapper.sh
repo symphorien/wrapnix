@@ -15,7 +15,7 @@ die () {
 	exit 1
 }
 
-{ who | grep -v $(whoami) ; } && die "other users";
+{ who | grep -v $(whoami) ; } >&2 && die "other users";
 
 prefix=/tmp/wrapnix
 if [ -e $prefix ]; then
