@@ -30,7 +30,7 @@ fi
 chmod 700 $prefix
 cd $prefix
 
-if ! [ -x proot ]; then
+if ! [ -x proot-x86_64 ]; then
 	wget https://github.com/proot-me/proot-static-build/raw/master/static/proot-x86_64 -o proot >&2
 	chmod +x proot-x86_64
 fi
